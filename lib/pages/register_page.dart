@@ -85,7 +85,7 @@ class _RegisterPageState extends State<RegisterPage> {
                           ),
                           const SizedBox(height: 4),
                           Text(
-                            'Daftar dulu untuk bisa mengelola inventaris komputer Abimart.',
+                            'Daftar dulu untuk bisa mengelola inventaris komputer Ramadhan Fakhtur Rakhman.',
                             style: TextStyle(
                               fontSize: 13,
                               color: Colors.grey[600],
@@ -162,6 +162,7 @@ class _RegisterPageState extends State<RegisterPage> {
                               onPressed: _loading ? null : _doRegister,
                               style: ElevatedButton.styleFrom(
                                 backgroundColor: Colors.grey[850],
+                                foregroundColor: Colors.white,
                                 padding: const EdgeInsets.symmetric(
                                   vertical: 14,
                                 ),

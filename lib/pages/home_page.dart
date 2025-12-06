@@ -135,15 +135,15 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       // Background agak gelap biar modern
-      backgroundColor: const Color.fromARGB(255, 120, 120, 120),
+      backgroundColor: const Color.fromARGB(255, 110, 110, 110),
       appBar: AppBar(
         title: const Text(
-          'Inventaris Komputer Ramadhan Fakhtur',
-          style: TextStyle(fontWeight: FontWeight.w600),
+          'Inventaris Komputer Ramadhan Fakhtur Rakhman',
+          style: TextStyle(fontWeight: FontWeight.w600, color: Colors.white),
         ),
         centerTitle: true,
         elevation: 4,
-        backgroundColor: const Color.fromARGB(255, 93, 93, 93),
+        backgroundColor: Colors.grey[850],
         actions: [
           IconButton(
             tooltip: 'Logout',
@@ -300,7 +300,8 @@ class _HomePageState extends State<HomePage> {
       ),
       floatingActionButton: FloatingActionButton.extended(
         onPressed: _addItem,
-        backgroundColor: Colors.grey[850],
+        backgroundColor: Colors.grey[800], // abu-abu gelap
+        foregroundColor: Colors.white, // tulisan/icon putih
         icon: const Icon(Icons.add),
         label: const Text('Tambah'),
       ),

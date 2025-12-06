@@ -93,7 +93,7 @@ class _LoginPageState extends State<LoginPage> {
                           ),
                           const SizedBox(height: 4),
                           Text(
-                            'Silakan login untuk mengelola inventaris komputer Abimart.',
+                            'Silakan login untuk mengelola inventaris komputer Ramadhan Fakhtur Rakhman.',
                             style: TextStyle(
                               fontSize: 13,
                               color: Colors.grey[600],
@@ -149,6 +149,7 @@ class _LoginPageState extends State<LoginPage> {
                               onPressed: _loading ? null : _doLogin,
                               style: ElevatedButton.styleFrom(
                                 backgroundColor: Colors.grey[850],
+                                foregroundColor: Colors.white,
                                 padding: const EdgeInsets.symmetric(
                                   vertical: 14,
                                 ),
