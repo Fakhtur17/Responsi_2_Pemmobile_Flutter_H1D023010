@@ -420,5 +420,6 @@ Di `initState()`, jika `widget.inventory` tidak null, maka nilai-nilai awal dari
 UI `InventoryFormPage` menghadirkan form yang rapi di dalam Card dengan judul dan deskripsi singkat di bagian atas, beberapa input field dengan hint yang membantu, serta tombol simpan di bagian bawah yang menampilkan teks “SIMPAN PERUBAHAN” jika edit dan “SIMPAN” jika tambah.
 
 ---
+![responsi2_mobile_paket1_h1d023010 2025-12-06 13-32-35](https://github.com/user-attachments/assets/c570245c-65c4-4bfe-9756-b5ea258e52d0)
 
 
