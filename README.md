@@ -12,8 +12,8 @@ Aplikasi ini dibuat untuk memenuhi tugas **Responsi 2 Mobile Paket 1**.
 
 * **Nama**  : Ramadhan Fakhtur Rakhman
 * **NIM**   : H1D023010
-* **Shift baru** : `Shift … (isi sesuai)`
-* **Shift asal** : `Shift … (isi sesuai)`
+* **Shift baru** : `Shift E`
+* **Shift asal** : `Shift D`
 * **Video demo aplikasi** : `https://youtu.be/… (isi link demo YouTube / GDrive)`
 
 README ini menjelaskan alur kerja aplikasi, spesifikasi API yang digunakan, serta penjelasan kode untuk setiap fungsi utama di dalam aplikasi.
@@ -421,14 +421,4 @@ UI `InventoryFormPage` menghadirkan form yang rapi di dalam Card dengan judul da
 
 ---
 
-## Penutup
-
-README ini menjelaskan:
-
-* Identitas pembuat (nama, NIM, shift baru & shift asal).
-* Gambaran umum dan alur kerja aplikasi Inventaris Komputer.
-* Spesifikasi API yang digunakan untuk autentikasi dan CRUD data inventaris.
-* Penjelasan per fungsi utama dalam kelas-kelas penting: `AppUser`, `Inventory`, `ApiService`, `LoginPage`, `RegisterPage`, `HomePage`, dan `InventoryFormPage`.
-
-Silakan melengkapi bagian **Shift baru**, **Shift asal**, dan **link video demo aplikasi** sesuai ketentuan tugas. Jika backend (API) memiliki response yang sedikit berbeda, pastikan struktur JSON yang dikirim dan diterima telah disesuaikan dengan model dan `ApiService` di aplikasi Flutter ini.
 
